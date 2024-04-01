@@ -61,28 +61,28 @@ const Footer = () => {
                     </ul>
                 </div>
             </section>
-            <section class="min-h-52 w-full bg-[#333333]">
+            <section class="min-h-52 w-full bg-[#333333] pb-12 md:pb-0">
                 <div class="flex w-full items-center justify-center p-4">
                     <Logo color={'fill-neutral-100'} />
                 </div>
 
                 <div class="text-wrap px-12 text-center text-sm text-neutral-100">
-                    <span class="inline-block">
+                    <span class="inline">
                         Tjänstgörande onlineredaktör:
                         <strong> Nomen Nescio</strong>
                         &nbsp; | &nbsp;
                     </span>
 
-                    <span class="inline-block">
+                    <span class="inline">
                         E-post: &nbsp; <strong>svtnyheter@svt.se</strong>
                         &nbsp; | &nbsp;
                     </span>
 
-                    <span class="inline-block">
+                    <span class="inline">
                         Telefon &nbsp; <strong>08-784 00 00</strong>
                         &nbsp; | &nbsp;
                     </span>
-                    <span class="inline-block">
+                    <span class="block">
                         © &nbsp;<strong>Sveriges Television AB</strong>
                     </span>
                 </div>

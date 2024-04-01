@@ -35,7 +35,7 @@ const NavbarLi = (props) => {
 
     return (
         <li class={`flex items-center justify-center border-l-[1px] px-3 hover:bg-slate-50 ${active()}`}>
-            <p class="nav-item pr-1 text-[17px] font-medium">{props.text}</p>
+            <p class="nav-item pr-1 text-[17px] font-medium leading-none">{props.text}</p>
             <Show when={props.chevron}>
                 <svg
                     class="chevron h-[19px] w-[19px] rounded-full bg-red-600 p-1 text-slate-50"

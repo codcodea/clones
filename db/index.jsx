@@ -69,7 +69,7 @@ export const hero1 = {
         {
             id: 1,
             img: 'story-2.png',
-            title: 'Åklagaren: ”Slagfält för påverkansoperationer”',
+            title: 'Åklagaren: ”Slagfält för påverkans-operationer”',
             text: 'Fynden från Nord Stream har nu fraktats till Tyskland',
         },
         {

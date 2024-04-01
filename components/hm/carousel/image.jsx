@@ -3,7 +3,7 @@ import { Show, createSignal, mergeProps } from 'solid-js'
 function Heart(props) {
     return (
         <svg
-            class={`absolute bottom-[12%] right-[7%] w-6 lg:bottom-[17%] ${
+            class={`absolute bottom-[19%] md:bottom-[12%] right-[7%] w-6 lg:bottom-[17%] ${
                 props.isFilled() ? 'fill-none' : 'hover:fill-none'
             }`}
             viewBox="0 0 24 24"

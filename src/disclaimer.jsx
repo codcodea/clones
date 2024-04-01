@@ -22,7 +22,7 @@ const Disclaimer = (props) => {
   }
 
   return (
-    <nav class="flex h-8 w-full items-center justify-center bg-black text-center shadow">
+    <nav class="hidden md:flex h-8 w-full items-center justify-center bg-black text-center shadow">
       <a href="/" class="inline px-2 font-sans text-[10px] text-neutral-200 ">
         {back} {LANG.active.back}
       </a>

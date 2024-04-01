@@ -51,7 +51,7 @@ export default HM;
 
 const Message = () => {
   return (
-    <p class="-mb-4 text-center text-xs">
+    <p class="-mb-4 text-center text-xs lg:px-0 px-10">
       Medlemmar får fri leverans till pick up points vid köp över 300 kr.
     </p>
   );

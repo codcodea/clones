@@ -4,7 +4,7 @@ const Logo = (props) => {
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 1090 159.2"
-            class={`${props.color} w-64 py-6`}
+            class={`${props.color} w-44 sm:w-64 py-6`}
         >
             <g>
                 <polygon points="146,118.6 114.7,34.8 87.4,34.8 132.3,155.3 159.6,155.3 204.5,34.8 177.2,34.8 	" />

@@ -15,18 +15,18 @@ const Hero = (props) => {
                         <img class="object-contain" src={props.text.img} alt="" />
                     </div>
                     <div class="border-b-[1px] p-6">
-                        <h1 class="text-4xl font-bold text-gray-800">{props.text.text}</h1>
+                        <h1 class="text-3xl md:text-4xl font-bold text-gray-800">{props.text.text}</h1>
                         <div class="mt-1 h-8">
-                            <p class={`inline-block text-lg font-semibold uppercase ${props.text.sub.color}`}>
+                            <p class={`inline-block text-base md:text-lg font-semibold uppercase ${props.text.sub.color}`}>
                                 {props.text.sub.text[0]}
                                 <span class="relative bottom-[2px] left-[2px] text-xs after:content-['•']" />
                             </p>
-                            <p class="inline-block pl-[4px] text-lg">
+                            <p class="inline-block pl-[4px] text-base md:text-lg">
                                 {props.text.sub.text[1]}
                                 <span class="relative bottom-[2px] left-[2px] text-xs after:content-['•']" />
                             </p>
                             <Show when={props.text.sub.text[2]}>
-                                <p class="inline-block pl-[4px] text-lg">{props.text.sub.text[2]}</p>
+                                <p class="inline-block pl-[4px] text-base md:text-lg">{props.text.sub.text[2]}</p>
                             </Show>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const Hero = (props) => {
                                     <img class="object-contain" src={s.img} alt="" />
                                 </div>
                                 <div class="col-span-8 px-4">
-                                    <h1 class="text-2xl font-semibold text-gray-800">{s.title}</h1>
+                                    <h1 class="text-2xl font-semibold text-gray-800 break-words">{s.title}</h1>
                                     <p class="my-1">{s.text}</p>
                                 </div>
                             </article>

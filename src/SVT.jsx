@@ -26,7 +26,7 @@ function SVT() {
     <div class="svt svt-body">
       <Disclaimer brand="Sveriges Television AB" />
       <Navbar />
-      <main class="container mx-auto grid max-w-5xl grid-cols-12 gap-5">
+      <main class="container mx-auto grid max-w-5xl grid-cols-12 gap-5 px-2">
         <section class="col-span-12 mx-auto max-w-2xl lg:col-span-8">
           <Flash text={flashText[0].text} />
           <Flash text={flashText[1].text} />

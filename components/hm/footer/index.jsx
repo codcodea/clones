@@ -20,7 +20,7 @@ const Footer = () => {
                         lg:col-span-1 lg:block"
                     >
                         <h1 class={headline}>Gå med nu</h1>
-                        <p class="mb-4 mr-3 text-xs text-gray-700">
+                        <p class="mb-4 mr-3 px-12 text-center text-xs text-gray-700 md:px-0 md:text-left">
                             Bli medlem och få 10% rabatt på ett köp + fri leverans till utlämningsställe!
                         </p>
                         <div class="flex gap-3">
@@ -36,7 +36,7 @@ const Footer = () => {
                     <Social />
                 </div>
 
-                <div class="row-span-1 flex justify-center text-xs">
+                <div class="row-span-1 flex justify-center px-8 text-center text-xs sm:px-2">
                     <p>Innehållet på denna webbplats är upphovsrättsskyddat och tillhör H & M Hennes & Mauritz AB.</p>
                 </div>
 

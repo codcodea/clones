@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div title="logo" class="flex items-center justify-center px-6">
                     <Logo />
                 </div>
-                <nav class="select-none">
+                <nav class="hidden md:block select-none">
                     <ul class="group flex h-full">
                         <For each={menus}>{(menu) => <NavbarLi {...menu} toggleOpen={toggleOpen} />}</For>
                     </ul>
