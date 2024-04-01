@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikBlack.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikSemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikSemiBoldItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Publik";
+  src: url("fonts/PublikLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HM";
+  src: url("fonts/HMSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HM";
+  src: url("fonts/HMSans-SemiBold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HM";
+  src: url("fonts/HMSans-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}

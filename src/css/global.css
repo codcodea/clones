@@ -1,0 +1,45 @@
+@import url("./fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  img {
+    user-select: none;
+    pointer-events: none;
+  }
+
+  /* remove scrollbar from carousel */
+  article.overflow-x-auto::-webkit-scrollbar {
+    display: none;
+  }
+
+  article.overflow-x-auto {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer components {
+  .svt-body {
+    background-color: #ebebeb;
+  }
+
+  .hm-body {
+    background-color: #faf9f8;
+    color: #313131;
+  }
+  .svt {
+    font-family: "Publik", sans-serif;
+  }
+  .hm {
+    font-family: "HM", sans-serif;
+  }
+}
